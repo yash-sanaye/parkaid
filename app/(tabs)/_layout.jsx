@@ -6,7 +6,7 @@ const TabIcon = ({ src, color, name, focused }) => {
     <View className="items-center justify-center ">
       <Image
         style={{ width: 24, height: 24 }}
-        source={src} // Adjusted the path
+        source={src}
         resizeMode="contain"
         tintColor={color}
       />
@@ -18,7 +18,7 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#00ADB5",
+        tabBarActiveTintColor: "#FF9C01",
         tabBarInactiveTintColor: "#393E46",
         tabBarStyle: {
           backgroundColor: "#EEEEEE",
